@@ -254,3 +254,26 @@ td, th {
     width: 560px;
     margin: 2em auto;
 }
+/*seletores avançados 
+*eles tem a mesma força, então a ordem importa */
+
+/* seletor filho (apenas os p filhos diretos do main)
+main > p {
+    background: red;
+} */
+
+/* selecionar o primeiro p que sucede uma imagem ( img é o elemento ancora e o p é o irmao)
+img + p {
+    background: blue;
+}
+*/
+
+/* selecionar todos os p depois de uma imagem
+img ~ p {
+    background: yellow;
+} */
+
+/* exclusao de itens especificos 
+.principal p:not(#missao){
+    background: orange;
+} */
