@@ -171,8 +171,9 @@ td, th {
     margin: 0 0 1em;
     /* o clear vai limpar o float da imagem*/
     clear: left;
-    color: rgba(0,0,0,0.3);
+    /* color: rgba(0,0,0,0.3); */
     /* o a de rgba é o elemento alfa e adiciona o valor de opacidade (0.3 no caso)*/
+    /* text-shadow: 2px 2px #FF0000; -> sombra no texto */
 }
 
 /* .titulo-principal:first-letter {
@@ -252,6 +253,8 @@ td, th {
     width: 60%;
     opacity: 1;
     transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+    /* X Y blur intensidade da borda (no caso é 0 entao nao tem) cor -> é possivel adicionar mais sombras apenas separando com ,*/
 }
 
 .imagem-beneficios:hover {
